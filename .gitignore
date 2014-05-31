@@ -2,3 +2,6 @@
 .idea/*
 
 wp-config.php
+
+.D_Store
+.htaccess
