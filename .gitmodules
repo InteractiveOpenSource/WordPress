@@ -1,3 +1,6 @@
 [submodule "wp-content/plugins/wp-smartex"]
 	path = wp-content/plugins/wp-smartex
 	url = https://github.com/InteractiveOpenSource/Wordpress-Smartex.git
+[submodule "wp-content/themes/jumbotron-narrow"]
+	path = wp-content/themes/jumbotron-narrow
+	url = https://github.com/malaDev/bootstrap-jumbotron.git
