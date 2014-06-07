@@ -1,0 +1,7 @@
+.idea/
+.idea/*
+
+.D_Store
+
+#bootstrap file of the plugin
+bootstrap.php

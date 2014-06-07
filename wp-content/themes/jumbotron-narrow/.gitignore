@@ -1,0 +1,7 @@
+.idea/
+.idea/*
+
+.D_Store
+._.DStore
+
+extend/plugins/*

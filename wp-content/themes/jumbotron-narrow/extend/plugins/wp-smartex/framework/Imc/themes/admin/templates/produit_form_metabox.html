@@ -1,0 +1,17 @@
+<div>
+{% autoescape false %}
+<table>
+    {% for field in fields %}
+    {{ field.twig_open }}
+    <tr>	
+	<th>{{ field.twig_label }}</th>
+	<td>{{ field.twig_input }}</td>	
+    </tr>
+    {{ field.twig_close }}
+    {% endfor %}
+    <tr>
+	<th>{{ twig_hiddens }}</th>
+    </tr>
+</table>
+{% endautoescape %}
+</div>

@@ -1,0 +1,8 @@
+{{ twig_test_open }}
+{{ twig_open }}
+<div class="alert{{ twig_type in ['success','info','error'] ? ' alert-' ~ twig_type ~ '' : '' }}">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    {{ twig_message }}
+</div>
+{{ twig_close }}
+{{ twig_test_close }}
